@@ -39,10 +39,8 @@ public class Controlador implements ActionListener, ItemListener {
     public void actionPerformed(ActionEvent e) {
 
         if (vista.imagen == e.getSource()) {
-            int i = 0;
-            while(i!=100){
+            while(1!=0){
             modelo.Imprimir();
-            i++;
             }
         }
 
